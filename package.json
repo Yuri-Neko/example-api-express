@@ -1,15 +1,15 @@
 {
-  "name": "nodejs-api",
+  "name": "expressjs-api",
   "version": "1.0.0",
   "description": "My Rest Api Project",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Danzzxcodes/danzz-api.git"
+    "url": "git+https://github.com/danzzcoding/danzz-api.git"
   },
   "keywords": [
     "simple",
@@ -21,10 +21,10 @@
   "author": "DanzzCoding",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Danzzxcodes/danzz-api/issues"
+    "url": "https://github.com/danzzcoding/danzz-api/issues"
   },
   "dependencies": {
-    "@danzzcoding/danzz-api": "github:Danzzxcodes/api",
+    "@danzzcoding/api": "github:danzzcoding/api",
     "express": "^4.18.1",
     "ssl-express-www": "^3.0.8",
     "cors": "^2.8.5",
@@ -33,5 +33,5 @@
     "serve-favicon": "^2.5.0",
     "cookie-parser": "^1.4.6"
   },
-  "homepage": "https://github.com/Danzzxcodes/danzz-api#readme"
+  "homepage": "https://github.com/danzzcoding/danzz-api#readme"
 }
